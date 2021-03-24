@@ -21,6 +21,41 @@ header {
     background-color: black;
 }
 
+main {
+    height: 1350px;
+    background-color: green;
+}
+
+#main-title {
+    height: 150px;
+    background-color: grey;
+}
+
+#info-container,
+#test-placement-container {
+    height: 600px;
+}
+
+#info-1 {
+    background-color: red;
+}
+
+#info-2 {
+    background-color: orange;
+}
+
+#info-3 {
+    background-color: purple;
+}
+
+#levels-img {
+    background-color: grey;
+}
+
+#findout-test {
+    background-color: black;
+}
+
 
 /* /Debug */
 
@@ -39,11 +74,23 @@ header {
     margin: 0 auto;
 }
 
+.w-33 {
+    width: calc(100% / 3);
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
 .float-left {
     float: left;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -53,26 +100,25 @@ header {
 /* Header */
 
 nav {
-    width: 100%;
     height: 15%;
     background-color: green;
 }
 
 #logo-container {
     width: 15%;
-    height: 100%;
 }
 
 #left-list {
     width: 45%;
-    height: 100%;
 }
 
 #right-list {
     width: 40%;
-    height: 100%;
 }
 
 .jumbotron {
     height: 85%;
 }
+
+
+/* Main */
