@@ -1,0 +1,21 @@
+/* Debug */
+
+header {
+    height: 600px;
+    background-color: blue;
+}
+
+
+/* /Debug */
+
+
+/* Common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
