@@ -10,14 +10,6 @@
     height: 600px;
 }
 
-#levels-img {
-    background-color: grey;
-}
-
-#findout-test {
-    background-color: black;
-}
-
 footer {
     background-color: purple;
     height: 150px;
@@ -242,4 +234,27 @@ section>p {
     padding: 0 5%;
     font-size: 16px;
     line-height: 1.3em;
+}
+
+#levels-img>img {
+    width: 85%;
+    padding: 3% 3% 6%;
+}
+
+#findout-test {
+    padding: 1%;
+    margin-left: 2%;
+    font-size: 32px;
+    text-align: left;
+    color: black;
+}
+
+#findout-test>p {
+    padding: 10px 0;
+    font-size: 19px;
+    color: #808080;
+}
+
+#findout-test>a {
+    font-size: 16px;
 }
