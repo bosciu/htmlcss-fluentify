@@ -1,7 +1,7 @@
 /* Debug */
 
 .jumbotron {
-    background-color: black;
+    /*  background-color: black; */
 }
 
 main {
@@ -124,6 +124,9 @@ body {
 
 header {
     height: 600px;
+    background: url(../img/background-header.png) no-repeat;
+    background-size: 56%;
+    background-position: 100% 100%;
     background-color: #0C325A;
 }
 
