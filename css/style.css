@@ -56,6 +56,18 @@ main {
     background-color: black;
 }
 
+footer {
+    height: 150px;
+}
+
+#footer-title {
+    background-color: red;
+}
+
+#form {
+    background-color: orange;
+}
+
 
 /* /Debug */
 
