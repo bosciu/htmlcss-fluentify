@@ -2,8 +2,6 @@
 
 #main-title {
     height: 150px;
-    background-color: #D3D3D3;
-    font-weight: 500;
 }
 
 #test-placement-container {
@@ -13,10 +11,6 @@
 footer {
     background-color: purple;
     height: 150px;
-}
-
-#footer-title {
-    background-color: red;
 }
 
 #form {
@@ -103,6 +97,11 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.left {
+    left: 0;
+    transform: translate(0, -50%);
+}
+
 .float-left {
     float: left;
 }
@@ -141,7 +140,7 @@ img[src*="logo"] {
     position: absolute;
     top: 43%;
     left: 0;
-    transform: translate(0, -50%);
+    /*     transform: translate(0, -50%); */
 }
 
 #left-list {
@@ -179,7 +178,7 @@ nav a {
 
 #jumbotron-title {
     left: 0;
-    transform: translate(0, -50%);
+    /*     transform: translate(0, -50%); */
 }
 
 #jumbotron-title>h2 {
@@ -201,6 +200,11 @@ main {
     text-align: center;
     font-size: 18px;
     letter-spacing: 1px;
+}
+
+#main-title {
+    background-color: #D3D3D3;
+    font-weight: 500;
 }
 
 #main-title h3 {
@@ -250,11 +254,23 @@ section>p {
 }
 
 #findout-test>p {
-    padding: 10px 0;
+    padding: 20px 0;
     font-size: 19px;
     color: #808080;
 }
 
 #findout-test>a {
     font-size: 16px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #D3D3D3;
+}
+
+footer h3 {
+    font-size: 26px;
+    color: black;
 }
