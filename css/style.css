@@ -1,11 +1,6 @@
 /* Debug */
 
-.jumbotron {
-    /*  background-color: black; */
-}
-
 main {
-    height: 1350px;
     background-color: green;
 }
 
@@ -203,3 +198,7 @@ nav a {
 
 
 /* Main */
+
+main {
+    text-align: center;
+}
