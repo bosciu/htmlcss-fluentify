@@ -84,6 +84,7 @@ body {
     border: 1px solid #7DBB02;
     border-radius: 5px;
     background-color: #7DBB02;
+    text-transform: uppercase;
 }
 
 .w-33 {
@@ -113,6 +114,10 @@ body {
     float: left;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -126,7 +131,7 @@ header {
     height: 600px;
     background: url(../img/background-header.png) no-repeat;
     background-size: 56%;
-    background-position: 100% 100%;
+    background-position: 108% 110%;
     background-color: #0C325A;
 }
 
@@ -140,6 +145,10 @@ nav {
 
 img[src*="logo"] {
     width: 70%;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    transform: translate(0, -50%);
 }
 
 #left-list {
@@ -172,6 +181,24 @@ nav a {
 
 .jumbotron {
     height: 85%;
+    color: white;
+}
+
+#jumbotron-title {
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+#jumbotron-title>h2 {
+    width: 60%;
+    padding-bottom: 3%;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#jumbotron-title>.btn-green {
+    padding: 25px 30px
 }
 
 
