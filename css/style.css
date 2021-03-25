@@ -1,7 +1,6 @@
      /* Debug */
      
      #real-life-english {
-         height: 400px;
          background-color: purple;
      }
      
@@ -344,6 +343,11 @@
      .arrow-menu::after {
          content: "\25BC";
      }
+     /* Real life english */
+     
+     #real-life-english img {
+         padding-bottom: 4%;
+     }
      /* You can find us */
      
      #you-can-find-us {
@@ -358,7 +362,7 @@
      /* Help Button */
      
      #help-button {
-         display: none;
+         /* display: none; */
          /* Rimuovere per visualizzare */
          position: fixed;
          bottom: 0;
