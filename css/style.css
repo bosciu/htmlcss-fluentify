@@ -245,14 +245,16 @@
      #findout-test>a {
          font-size: 16px;
      }
-     /* Footer */
+     /* Visualizza il tuo piano */
      
-     footer {
+     #visual-your-piano {
          height: 200px;
          background-color: #D3D3D3;
+         letter-spacing: normal;
+         text-align: left;
      }
      
-     footer h3 {
+     #visual-your-piano h3 {
          font-size: 26px;
          color: black;
      }
