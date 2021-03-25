@@ -1,3 +1,69 @@
+     /* Debug */
+     
+     #real-life-english {
+         height: 400px;
+         background-color: purple;
+     }
+     
+     #real-life-english section:first-child {
+         background-color: red;
+     }
+     
+     #real-life-english #text {
+         background-color: orange;
+     }
+     
+     #you-can-find-us {
+         height: 400px;
+         background-color: green;
+     }
+     
+     #lets-company-talk {
+         height: 350px;
+         background-color: blue;
+     }
+     
+     #lets-company-talk>div {
+         background-color: yellow;
+     }
+     
+     #structure-plane {
+         height: 400px;
+         background-color: brown;
+     }
+     
+     #structure-plane>div {
+         background-color: green;
+     }
+     
+     #first,
+     #second,
+     #third {
+         background-color: red;
+         border: 1px solid black;
+     }
+     
+     #faq-banner {
+         height: 125px;
+         background-color: blue;
+     }
+     
+     #faq-banner>div {
+         background-color: yellow;
+     }
+     
+     footer {
+         height: 350px;
+         background-color: lightblue;
+     }
+     
+     #footer-first,
+     #footer-second,
+     #footer-third {
+         background-color: red;
+         border: 1px solid black;
+     }
+     /* /Debug */
      /* Text class */
      
      .info-title {
@@ -278,9 +344,22 @@
      .arrow-menu::after {
          content: "\25BC";
      }
+     /* You can find us */
+     
+     #you-can-find-us {
+         margin: auto;
+     }
+     /* Struttura un piano */
+     
+     #structure-plane>div {
+         width: 70%;
+         margin: 0 auto;
+     }
      /* Help Button */
      
      #help-button {
+         display: none;
+         /* Rimuovere per visualizzare */
          position: fixed;
          bottom: 0;
          right: 14%;
