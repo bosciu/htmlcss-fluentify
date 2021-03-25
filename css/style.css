@@ -1,29 +1,7 @@
      /* Debug */
      
-     #real-life-english {
-         background-color: purple;
-     }
-     
-     #real-life-english section:first-child {
-         background-color: red;
-     }
-     
      #real-life-english #text {
          background-color: orange;
-     }
-     
-     #you-can-find-us {
-         height: 400px;
-         background-color: green;
-     }
-     
-     #lets-company-talk {
-         height: 350px;
-         background-color: blue;
-     }
-     
-     #lets-company-talk>div {
-         background-color: yellow;
      }
      
      #structure-plane {
@@ -65,10 +43,28 @@
      /* /Debug */
      /* Text class */
      
+     .title-section {
+         font-size: 32px;
+         text-align: left;
+         color: black;
+     }
+     
      .info-title {
          padding: 0 5%;
          color: #7DBB02;
          font-size: 25px;
+     }
+     
+     .text-small {
+         font-size: 14px;
+     }
+     
+     .text-left {
+         text-align: left;
+     }
+     
+     .text-center {
+         text-align: center;
      }
      /* Common */
      
@@ -295,9 +291,6 @@
      #findout-test {
          padding: 1%;
          margin-left: 2%;
-         font-size: 32px;
-         text-align: left;
-         color: black;
      }
      
      #findout-test>p,
@@ -348,10 +341,59 @@
      #real-life-english img {
          padding-bottom: 4%;
      }
+     
+     #real-life-english>div>div {
+         padding: 4% 3%;
+     }
+     
+     #real-life-english p {
+         padding-top: 5%;
+     }
+     
+     #real-life-english div.btn-green {
+         width: 50%;
+     }
+     
+     #real-life-english span {
+         width: 48%;
+         padding-top: 5%;
+         transform: translate(10px, 10px);
+     }
      /* You can find us */
      
      #you-can-find-us {
+         padding-top: 10%;
          margin: auto;
+     }
+     
+     #you-can-find-us p {
+         padding: 2% 0;
+     }
+     
+     #you-can-find-us a {
+         margin-bottom: 10%;
+     }
+     /* Fai parlare inglese alla tua azineda */
+     
+     #lets-company-talk {
+         background-color: #0C325A;
+     }
+     
+     #lets-company-talk>div {
+         padding: 3%;
+     }
+     
+     #lets-company-talk h3 {
+         width: 33%;
+         padding-bottom: 2%;
+         color: white;
+     }
+     
+     #lets-company-talk div.btn-green {
+         position: relative;
+         right: 43%;
+         top: 27px;
+         margin-bottom: 2%;
      }
      /* Struttura un piano */
      
@@ -362,7 +404,7 @@
      /* Help Button */
      
      #help-button {
-         /* display: none; */
+         display: none;
          /* Rimuovere per visualizzare */
          position: fixed;
          bottom: 0;
